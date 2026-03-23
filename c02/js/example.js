@@ -4,7 +4,7 @@ var message = ', por favor verifica o teu pedido';
 
 var welcome = greeting + name + message;
 
-var sign = 'Casa Montague';
+var sign = 'Casa Montague à Beira Rio';
 var tiles = sign.length;
 var subTotal = tiles * 5;
 var shipping = 7;

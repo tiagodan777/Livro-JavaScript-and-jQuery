@@ -1,7 +1,7 @@
 var username;
 var message;
-username = 'Molly';
-message = 'Conhece a nossa próxima coleção';
+username = 'Tiago';
+message = 'Conhece a nossa próxima coleção ao clicar neste link';
 
 var elName = document.getElementById('name');
 elName.textContent = username;
