@@ -1,14 +1,13 @@
 $(function() {
     $('ul').on(
-        'mouseover click',
+        'click mouseover',
         ':not(#four)',
         {'status': 'importante'},
         function(e) {
-            var item = 'Item: ' + $(e.target).text() + '<br>';
-            var status = 'Status: ' + e.data.status + '<br>';
-            var event = 'Event: ' + e.type + '<br>';
-
+            var item = 'Item: ' + e.target.textContent;
+            var status = '<br>Status: ' + e.data.status;
+            var event = '<br>Evento: ' + e.type
             $('#notes').html(item + status + event);
         }
-    )
-})
+    );
+});
