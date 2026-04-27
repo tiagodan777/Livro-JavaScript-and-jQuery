@@ -1,0 +1,3 @@
+$(function() {
+    $('#prizes').accordion();
+})

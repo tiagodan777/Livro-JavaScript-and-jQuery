@@ -3,7 +3,8 @@
   <head>
     <title>JavaScript &amp; jQuery - Chapter 9: APIs - jQuery UI Form Controls</title>
     <link rel="stylesheet" href="css/c09.css" />
-    <link rel="stylesheet" href="css/pepper-grinder/jquery-ui-1.10.3.custom.min.css" />
+    <link rel="stylesheet" href="css/jquery-ui.min.css" />
+    <meta charset="UTF-8">
   </head>
   <body>
     <header><h1>THE MAKER BUS</h1></header>
@@ -12,19 +13,19 @@
     <div class="two-thirds">
       <form>
         <p id="price">
-          <label for="amount">Price range:</label>
-          <input type="text" id="amount" />
+          <label for="preco">Variação de Preço</label>
+          <input type="text" name="preco" id="preco">
         </p>
-        <div id="price-range"></div>
+        <div id="variacao-preco"></div>
         <p>
-          <label for="arrival">Arrival date:</label>
-          <input type="text" id="arrival" />
+          <label for="chegada">Data de Chegada</label>
+          <input type="text" name="chegada" id="chegada">
         </p>
         <input type="submit" value="Find a hotel" />
       </form>
     </div>
-    <script src="js/jquery-1.11.0.min.js"></script>
-    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery-4.0.0.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
     <script src="js/form-init.js"></script>
   </body>
 </html>
